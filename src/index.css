@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html{
+    height: 100dvh;
+    width:100dvw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Fredoka", sans-serif;
+}
+
+.main-title{
+    font-family: "Satisfy", cursive;
+}
+
+.btn-transition {
+    transition: all 0.3s ease-in-out;
+}
+
+.backdrop-blur{
+    box-shadow: 0px 0px 100px 140px rgba(224, 195, 252, 0.4);
+    -webkit-box-shadow: 0px 0px 100px 140px rgba(224, 195, 252, 0.4);
+    -moz-box-shadow: 0px 0px 100px 140px rgba(224, 195, 252, 0.4);
+}
+
+.main-poster{
+    font-family: "Rubik Glitch Pop", system-ui;
+}

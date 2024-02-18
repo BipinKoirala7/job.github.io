@@ -41,9 +41,9 @@ function App() {
 }
 const Root = ():JSX.Element => {
   return (
-    <main className='flex flex-col gap-2 bg-primary text-secondary min-h-[100vh] w-full'>
+    <main className='flex flex-col text-secondary w-full'>
       <HomeNavbar/>
-      <div className='px-2'>
+      <div className=''>
         <Outlet />
       </div>
     </main>

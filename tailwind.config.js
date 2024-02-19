@@ -17,13 +17,13 @@ export default {
       },
       gridTemplateColumns: {
         "main-navbar-grid": "1fr 5fr 1fr",
-        "job-filter-grid-column": "1fr 1fr 1fr 1fr 2fr",
+        "job-filter-grid-column": "1fr 1fr 1fr 1fr 1.5fr",
       },
       gridTemplateRows: {
-        "job-filter-gird-row":""
+        "app-gird": "1fr 8fr",
+        "job-filter-gird-row": "",
       },
       plugins: [],
     },
   },
 };
-

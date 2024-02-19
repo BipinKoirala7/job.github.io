@@ -41,7 +41,7 @@ function App() {
 }
 const Root = ():JSX.Element => {
   return (
-    <main className='flex flex-col text-secondary w-full'>
+    <main className='grid grid-rows-app-gird bg-primary text-secondary w-full'>
       <HomeNavbar/>
       <div className=''>
         <Outlet />

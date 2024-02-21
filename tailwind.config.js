@@ -13,6 +13,7 @@ export default {
         "fifth-color": "#DFF3FE",
         "sixth-color": "#ECEFF4",
         "border-color": "#383838",
+        "border-color-2":"#D7D7D7",
         "light-text": "#82858A",
       },
       gridTemplateColumns: {
@@ -21,7 +22,7 @@ export default {
       },
       gridTemplateRows: {
         "app-gird": "1fr 8fr",
-        "job-filter-gird-row": "",
+        "job-filter-gird-row": "1fr auto",
       },
       plugins: [],
     },

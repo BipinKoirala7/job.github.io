@@ -5,7 +5,7 @@ type FilterNavigationBox = {
 }
 
 import { useState } from "react";
-import EvenBtn from "./EvenBtn"
+import EvenBtn from "../../../components/EvenBtn"
 import { TiArrowSortedDown } from "react-icons/ti";
 function FilterNavigationBox(props: FilterNavigationBox) {
     const [IsOpen, SetIsOpen] = useState(false)
@@ -26,7 +26,7 @@ function FilterNavigationBox(props: FilterNavigationBox) {
                 </div>
             </div>
                 {IsOpen &&
-                    <div className="absolute top-[120%] bg-primary p-4 flex flex-col gap-2 rounded-lg w-[120%] left-[-10%] border-[3px] border-border-color  ">
+                    <div className="absolute top-[100%] bg-primary p-4 flex flex-col gap-2 rounded-lg w-[100%] border-[3px] border-border-color  ">
                         {props.Options.map((item =>
                             <button onClick={() => handleOptionsClick(item)} className="px-4 py-2 border-[1px] rounded-md border-border-color text-[0.9rem] hover:bg-border-color btn-transition bg-primary" type="button">{item}</button>
                         ))}

@@ -1,12 +1,12 @@
-import { MdOutlineKeyboardDoubleArrowLeft } from "react-icons/md";
-import EvenBtn from "./EvenBtn";
+import { TbArrowBarToLeft } from "react-icons/tb";
+
 import FilterLabelComponent from "./FilterLabelComponent";
 function Jobfilters() {
     return (
-        <div className="flex flex-col gap-4 bg-secondary text-primary px-8 py-4">
+        <div className="flex flex-col gap-4 bg-white shadow-sm shadow-border-color rounded-lg  text-primary px-8 py-4">
             <div className="flex items-center justify-between">
                 <p className="text-[1.1rem] font-semibold py-2 ">Filters</p>
-                <EvenBtn hoverTailwindColor="hover:bg-first-color" isHoverEffectNeeded={true} icon={<MdOutlineKeyboardDoubleArrowLeft className="text-primary cursor-pointer"/>} />
+                <TbArrowBarToLeft className="w-8 h-8 p-2 cursor-pointer aspect-square rounded-full hover:bg-slate-300  btn-transition" />
             </div>
             <div className="flex flex-col gap-2">
                 <p className="text-[0.9rem] text-light-text">Working Schedule</p>

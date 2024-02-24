@@ -1,13 +1,13 @@
 import { BiMessageSquareCheck } from "react-icons/bi";
 // import { HiOutlineLockOpen } from "react-icons/hi2"; use this with animation
 // import { BiSolidMessageSquareCheck } from "react-icons/bi";use this when the message is checked
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 import DribbleImage from '../../assets/dribble-logo.png'
 
 function JobBox() {
     return (
-            <NavLink to={''} className="border-[#D7D7D7] border-[1px] p-1 rounded-2xl max-w-80">
+            <div className="border-[#D7D7D7] border-[1px] p-1 rounded-2xl max-w-80">
                 <div className="bg-third-color flex flex-col gap-2 rounded-2xl p-3">
                     <div className="flex justify-between items-center">
                     <div className="px-4 py-2 bg-white rounded-3xl text-primary text-[0.9rem] font-[500]"> 29 Jan,2023</div>
@@ -31,7 +31,7 @@ function JobBox() {
                 </div>
                 <button className="text-white px-3 w-fit h-fit py-2 bg-primary border-[1px] border-primary rounded-3xl">Details</button>
                 </div>
-            </NavLink>
+            </div>
     )
 }
 

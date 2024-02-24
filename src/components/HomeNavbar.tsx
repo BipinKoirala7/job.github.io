@@ -8,7 +8,7 @@ import LinkBtn from "./LinkBtn";
 
 function HomeNavbar() {
     return (
-        <div className=" bg-primary border-b-[1px] border-border-color w-full grid grid-cols-main-navbar-grid items-center pt-4 px-8">
+        <div className=" bg-primary border-b-[1px] border-border-color w-full grid grid-cols-main-navbar-grid items-center pt-4 px-8 max-w-[100%]">
             <NavLink to={'/'} className="main-title text-[1.5rem] px-2 py-2">Jagire Nepali</NavLink>
             <div className="flex gap-8 w-[60%] px-4">
                 <LinkBtn url="/" name="Home" />

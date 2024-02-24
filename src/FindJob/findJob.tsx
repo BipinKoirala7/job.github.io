@@ -8,15 +8,15 @@ import TotalJob from "./Job/TotalJob";
 
 function FindJob() {
   return (
-    <div className="grid grid-cols-job-filter-grid-column grid-rows-job-filter-gird-row gap-2">
+    <div className="grid grid-cols-job-filter-grid-column grid-rows-job-filter-gird-row gap-2 max-w-[100%] overflow-y-auto">
       <div className="row-span-1 col-start-1 col-end-6">
         <JobPortalNavbar />
       </div>
       <div className="row-start-2 row-end-auto col-start-1 col-end-2">
         <Jobfilters />
       </div>
-      <div className="bg-secondary col-start-2 col-end-6 row-start-2 row-end-auto flex flex-col gap-6 px-6 py-2 text-primary">
-        <div className="flex justify-between items-center w-[100%] px-6">
+      <div className="bg-secondary col-start-2 col-end-6 row-start-2 row-end-auto flex flex-col gap-6 px-6 py-2 text-primary max-h[100%]">
+        <div className="flex justify-between items-center w-[100%] px-1 pr-6">
             <div className="flex items-center gap-6">
               <p className="font-semibold text-[1.5rem]">Recommended Jobs</p>
               <p className="border-light-text border-[1px] px-2 py-1 rounded-3xl">387</p>
@@ -27,7 +27,6 @@ function FindJob() {
             <LuSettings2 />
           </div>
         </div>
-
         <TotalJob />
       </div>
     </div>
